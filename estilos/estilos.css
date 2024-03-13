@@ -9,4 +9,53 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.rojo {
+  color: #f74d0b;
+}
+
+.encabezado {
+  background-color: #000000c0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo {
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.nav-contenedor {
+}
+
+.barra-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.barra-nav li {
+  margin: auto 5px;
+  padding: 10px;
+}
+
+.barra-nav li:hover {
+  color: #f74d0b;
+  cursor: pointer;
+}
+
+.unetenos {
+  color: #ffffffdc;
+  font-weight: 700;
+  background-color: #f74d0b;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
 }
